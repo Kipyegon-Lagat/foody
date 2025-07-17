@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.dishCard,.topPicks {
+    overflow: scroll;
+    scrollbar-gutter: stable; /* This keeps the layout stable */
+}
+
+/* Hide scrollbar for Webkit browsers (Chrome, Safari, and newer Edge) */
+.dishCard::-webkit-scrollbar,.topPicks::-webkit-scrollbar {
+    display: none;
+}
+
+
+.topPicks{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-bottom: 0;
+  }
+.dishCard{
+    flex: 0 0 auto;
+    display: inline-block;
+    overflow-y: scroll;
+    width: 200px;
+    height: fit-content;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    vertical-align: top;
+    height: 360px;
+    
+}
+.dishCard>img{
+    border-radius: 15px;
+    height: 180px;
+    width: 200px;
+}
+.dishCard>p,
+.dishCard>h1,
+.dishCard>h2,
+.dishCard>h3{
+    margin: 5px 0; 
+    white-space: wrap;
+}
+.dishCard>p{
+    padding: 1%;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.addToCart{
+    display: flex;
+    justify-content: space-between;
+}
+.addToCart>button{
+    background-color: rgb(252, 52, 52);
+    box-sizing: border-box;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    box-shadow: -1px 2px 12px 2px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addToCart>p{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+.res-head{
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 14px;
+    overflow:hidden
+}
+.res-head>h1{
+    font-weight: bolder;
+}
+.res-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.res-div>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.res-div>div>img{
+    height: 30px;
+    width: 30px;
+}
+.user-card{
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.removeFromCart{
+    display: flex;
+    justify-content: space-between;
+}
+.removeFromCart>button{
+    background-color: rgb(252, 52, 52);
+    box-sizing: border-box;
+    height: 30px;
+    width: 65px;
+    border-radius: 5px;
+    box-shadow: -1px 2px 12px 2px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.removeFromCart>p{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}

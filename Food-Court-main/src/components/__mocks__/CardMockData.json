@@ -1,0 +1,75 @@
+{
+        "id": "764055",
+        "name": "Theobroma",
+        "cloudinaryImageId": "63dd75492c47fcec191132b8eb299ea5",
+        "locality": "City Mall",
+        "areaName": "C-Scheme",
+        "costForTwo": "₹400 for two",
+        "cuisines": [
+            "Bakery",
+            "Desserts"
+        ],
+        "avgRating": 4.5,
+        "parentId": "1040",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "500+",
+        "adTrackingId": "cid=15281064~p=0~adgrpid=15281064#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=764055~eid=92359ed6-e7dd-42e5-b964-89bd52a021ae~srvts=1721643793339~collid=45826",
+        "sla": {
+            "deliveryTime": 23,
+            "lastMileTravel": 2.3,
+            "serviceability": "SERVICEABLE",
+            "slaString": "20-25 mins",
+            "lastMileTravelString": "2.2 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2024-07-23 02:00:00",
+            "opened": true
+        },
+        "badges": {
+            "imageBadges": [
+                {
+                    "imageId": "newg.png",
+                    "description": "Gourmet"
+                }
+            ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "textBased": {},
+                "imageBased": {
+                    "badgeObject": [
+                        {
+                            "attributes": {
+                                "imageId": "newg.png",
+                                "description": "Gourmet"
+                            }
+                        }
+                    ]
+                },
+                "textExtendedBadges": {}
+            }
+        },
+        "aggregatedDiscountInfoV3": {
+            "header": "20% OFF",
+            "discountTag": "FLAT DEAL"
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+            "aggregatedRating": {
+                "rating": "--"
+            }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    }

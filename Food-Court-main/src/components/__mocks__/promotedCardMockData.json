@@ -1,0 +1,87 @@
+{
+    "id": "48891",
+    "name": "Natural Ice Cream",
+    "cloudinaryImageId": "w7ndo1dkkk6kf4qfz2p1",
+    "locality": "Suryavanshi Pearl, Show Room No. 2, Sardar Patel Marg",
+    "areaName": "C Scheme",
+    "costForTwo": "₹150 for two",
+    "cuisines": [
+        "Ice Cream",
+        "Desserts"
+    ],
+    "avgRating": 4.8,
+    "veg": true,
+    "parentId": "2093",
+    "avgRatingString": "4.8",
+    "totalRatingsString": "10K+",
+    "promoted": true,
+    "adTrackingId": "cid=15488227~p=0~adgrpid=15488227#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=48891~eid=30242f55-2e85-45f4-8af8-8b489da4be8e~srvts=1721645615822~collid=45826",
+    "sla": {
+        "deliveryTime": 15,
+        "lastMileTravel": 1.5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "15-20 mins",
+        "lastMileTravelString": "1.5 km",
+        "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+        "nextCloseTime": "2024-07-22 23:30:00",
+        "opened": true
+    },
+    "badges": {
+        "imageBadges": [
+            {
+                "imageId": "Rxawards/_CATEGORY-Ice-creams.png",
+                "description": "Delivery!"
+            },
+            {
+                "imageId": "v1695133679/badges/Pure_Veg111.png",
+                "description": "pureveg"
+            }
+        ]
+    },
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+        "entityBadges": {
+            "textBased": {},
+            "imageBased": {
+                "badgeObject": [
+                    {
+                        "attributes": {
+                            "imageId": "Rxawards/_CATEGORY-Ice-creams.png",
+                            "description": "Delivery!"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "description": "pureveg",
+                            "imageId": "v1695133679/badges/Pure_Veg111.png"
+                        }
+                    }
+                ]
+            },
+            "textExtendedBadges": {}
+        }
+    },
+    "aggregatedDiscountInfoV3": {
+        "header": "50% OFF",
+        "subHeader": "UPTO ₹90"
+    },
+    "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+        }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {},
+    "externalRatings": {
+        "aggregatedRating": {
+            "rating": "--"
+        }
+    },
+    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+}
