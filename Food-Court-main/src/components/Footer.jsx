@@ -9,7 +9,7 @@ export const Footer = () => {
         ©
         {year}
         <strong className="px-[10px]">
-          Food<span> Court</span>
+          Food<span> Foody</span>
         </strong>
       </div>
     );
