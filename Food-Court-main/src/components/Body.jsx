@@ -8,8 +8,7 @@ const Body=()=>{
     const [tempRes,setTempRes]=useState([]);
     // temporary list of restaurant to modify
     
-    const res=useGetResList();
-    //Main list of restaurants
+    const res=useGetResList(); 
     
     useEffect(()=> {
         setTempRes(res);
