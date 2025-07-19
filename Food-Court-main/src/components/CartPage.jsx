@@ -18,7 +18,7 @@ const CartPage=()=>{
                 cartItems.length===0 ? 
                <Link to="/"> <h2 data-tesid='emptyCart'
                                 className="font-bold text-l flex items-center justify-center pb-2 mb-2">
-                    Cart is empty Go add some Items</h2>
+                    Cart is empty</h2>
                 </Link>:
                 <div>
                     <div className=" w-full mx-auto my-4  p-4 flex flex-wrap
