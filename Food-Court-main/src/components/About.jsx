@@ -20,7 +20,7 @@ class About extends Component{
         //console.log("parent render");
         return(
             <div className="user-card flex flex-col justify-center items-center">
-                <h1 className="font-bold m-2 p-2">ABOUT ME</h1>
+                <h1 className="font-bold m-2 p-2">ABOUT </h1>
                 <ProfileClass />
             </div>
         )
