@@ -106,6 +106,7 @@ const Body=()=>{
                             ):
                             (
                                 <Card key={restaurant.info.id} {...restaurant.info}/> 
+                                
                             )
                         }
                         
