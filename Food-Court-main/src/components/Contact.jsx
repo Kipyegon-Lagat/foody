@@ -6,7 +6,7 @@ const Contact = () => {
         <p className="m-3 ">For any queries or inquiries, please reach out to our customer support team.</p>
         <p className="m-3">Email:  support@foody.com</p>
         <p className="m-3">Phone: 123-456-7890</p>
-        <button className="border border-black">submit</button>
+        <button className="border border-black">Submit</button>
   
     </div>
   )
