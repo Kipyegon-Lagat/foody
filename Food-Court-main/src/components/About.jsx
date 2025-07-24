@@ -21,7 +21,7 @@ class About extends Component{
         return(
             <div className="user-card flex flex-col justify-center items-center">
                 <h1 className="font-bold m-2 p-2">About Me</h1>
-                <ProfileClass />
+                <Profile />
             </div>
         )
     }
