@@ -84,7 +84,7 @@ const Body=()=>{
                 <div className="m-3 p-3 flex min-w-[220px] items-center">                    
                     <button className="filter-btn px-4   overflow-hidden  h-[28px] border border-solid border-green-600 rounded-md bg-green-100"
                      onClick={topRated}>
-                        Top Rated Restaurants
+                        Top Restaurants
                     </button>
                 </div>
                 <div className="search m-3 p-3 flex ">
