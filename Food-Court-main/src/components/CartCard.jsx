@@ -16,7 +16,7 @@ function CartCard(props) {
           {props.name}</h3>
         <div className='removeFromCart'>
             <p>₹ {price/100}</p>
-            <button onClick={()=>handleRemovedItem(props)}>Remove</button>
+            <button onClick={()=>handleRemovedItem(props)}>REMOVE</button>
         </div>
         <p>Is Veg: {props.isVeg==true?"🟢":"🔴"}</p>
         <p>{props?.description}</p>
